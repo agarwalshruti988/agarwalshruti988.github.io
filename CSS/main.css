@@ -1,0 +1,51 @@
+header{
+    width:100vw;
+    min-height:100vh;
+    background-color:black;
+}
+header nav {
+    height: 10vh;
+    font-size:3vmin;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color:rgba(0,0,0,.3);
+    text-align:right;
+    padding-bottom:35vmin;
+}
+nav ul {
+    height: auto;
+    padding: 1em 0px;
+    
+}
+header div li { 
+display: inline; 
+ padding: 1em;
+ 
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    border:2px solid white;
+    padding:0.5em;
+    text-decoration:none;
+    color:white;
+}
+h1
+{
+    margin:auto;
+    border: 2px solid white;
+    text-align:center;
+    padding:1em;
+    color:white;
+    width:10em;
+    font-size:6vmin;
+}
+h1 span{
+    font-style:italic;
+    font-size:3vmin;
+}
+#name{
+    font-family: 'Pacifico', cursive;
+    font-size:6vmin;  
+} 
