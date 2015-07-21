@@ -1,0 +1,71 @@
+header{
+    width:100%;
+    min-height:100vh;
+    background-color:white;
+    background-image:url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/images_zpsgm44b2dp.jpg");
+    
+}
+header nav {
+    height: 10vh;
+    font-size:3vmin;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color:black;
+    background-color:rgba(0,0,0,.3);
+    text-align:right;
+}
+nav ul {
+    height: auto;
+    padding: 1em 0px;
+    
+}
+header div li { 
+    display: inline; 
+    padding: 1em;
+ 
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    border:2px solid white;
+    padding:0.5em;
+    text-decoration:none;
+    color:white;
+}
+#content{
+    margin:auto;
+    padding-top:15vh;
+    padding-left:10vw;
+}
+div h1{
+    font-family: 'Happy Monkey', cursive;
+    color:#F95029;
+    font-size:6vmin;
+    padding-bottom:1em;
+}
+.buttons{
+    background-color:#ACD5CF;
+    border: solid #ACD5CF;
+    margin-left:2em;
+     width:6em;
+    display:inline;
+    padding:1em 1em;
+    border-radius:100%;
+}
+.buttons a {
+    text-decoration:none;
+    padding:0em;
+    font-size:3vmin;
+    text-align:center;
+}
+.buttons a:hover{
+    font-weight:bold;
+    color:#1C3554;
+}
+div p{
+    color:#DCBA97;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:3vmin;
+    padding-top:2em;
+}
