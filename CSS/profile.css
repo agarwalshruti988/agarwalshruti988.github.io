@@ -1,15 +1,16 @@
 header{
-    width:100vw;
-    min-height:90vh;
-    background-color:black;
+    width:100%;
+    min-height:100vh;
+    background-image:url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/free-psd-files-2013-jan-20_zpsr9yt0niw.jpg");
+    
 }
 header nav {
     height: 10vh;
     font-size:3vmin;
     font-family: Tahoma, Geneva, sans-serif;
-    background-color:rgba(0,0,0,#F2784B);
+    background-color:black;
+    background-color:rgba(0,0,0,.3);
     text-align:right;
-    padding-bottom:35vmin;
 }
 nav ul {
     height: auto;
@@ -32,36 +33,27 @@ nav a:hover{
     padding:0.1em;
     text-decoration:none;
     color:white;
-}
-h1
-{
-    margin:auto;
-    border: 2px solid white;
+}    
+h1{
     text-align:center;
-    padding:1em;
-    color:white;
-    width:10em;
     font-size:6vmin;
+    font-family: 'Oswald', sans-serif;
+    color:#ACE3FC;
+    margin: 1em 1em;
 }
-h1 span{
-    font-style:italic;
-    font-size:3vmin;
-}
-#name{
-    font-family: 'Pacifico', cursive;
-    font-size:6vmin;  
-} 
-.footer{
-    min-height:30vh;
-    width:100%;
-    background-color:#F2784B;
+.work-exp{
+    background-color:#FAF579;
+    padding:1em 1em 1em 1em;
     text-align:center;
+    margin-left:1em;
+    width:7em;
     font-size:4vmin;
-    padding:1em 1em;
+    font-family: 'Raleway', sans-serif;
 }
-div i{
-    padding:.3em .3em;
+#skills .row{
+    padding:1em 6em 4em 6em;
 }
 .progress{
-    width:13em;
+    width:50vw;
+    margin:2em;
 }

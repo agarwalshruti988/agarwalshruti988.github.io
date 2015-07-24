@@ -19,14 +19,15 @@
     
         
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="{{"js/jquery.particleground.min.js" | prepend: site.baseurl }}"></script>
-    <script type='text/javascript' src="{{"js/nameofyourfile.js" | prepend: site.baseurl }}"></script>
+    <script src="{{"/JS/jquery.particleground.min.js" | prepend: index.html }}"></script>
+    <script type='text/javascript' src="{{"/JS/home.js" | prepend: index.html }}"></script>
     
     
     </head>
     
     <body>
         <header>
+            <section id="home">
             <div class="container">
                <nav>
                  <ul>
@@ -40,9 +41,20 @@
                
             
                <h1>Hello, I'm <span id="name">Shruti</span>  <span>Web Developer</span></h1>
+               <i class="icon-hand-down" style="color:white"></i> icon-hand-down
            </div>
+           </section>
         </header>
-       
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <p>Stay connected!</p>
+                    <a href="https://www.facebook.com/shruti.agarwal.737001"><i class="fa fa-facebook "></i></a> 
+                    <a href="https://github.com/Agarwalshruti988"><i class="fa fa-github "></i></a> 
+                    <i class="fa fa-google-plus"></i>
+                </div>
+            </div>
+        </footer>
     </body>
     
 </html>

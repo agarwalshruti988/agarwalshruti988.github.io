@@ -4,5 +4,7 @@ $(document).ready(function() {
         lineColor: '#263142',
         density:12000
                     
-})}
+})
+    
+});
 
