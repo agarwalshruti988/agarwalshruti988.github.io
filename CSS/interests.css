@@ -44,3 +44,6 @@ nav a:hover{
 p{
     font-size:3vmin;
 }
+img{
+    max-width:90%;
+}
